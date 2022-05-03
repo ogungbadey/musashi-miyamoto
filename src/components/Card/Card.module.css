@@ -3,4 +3,11 @@
     width: 160px;
     background-color: blue;
     border-radius: 4px;
+    padding: 8px;
+}
+
+.Image {
+    height: 120px;
+    border: 1px solid black;
+    margin-bottom: 8px;
 }

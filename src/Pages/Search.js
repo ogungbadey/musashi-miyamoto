@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "../components/Card/Card";
+import { ThemeContext } from "../context/ThemeContext";
 // import second from 'first'
 
 export default function Search() {
+  const theme = useContext(ThemeContext);
   const recents = [
     {
       name: "Visitor 1",
@@ -33,7 +35,9 @@ export default function Search() {
       }}
     >
       <div>
-        <h1>Recent Searches</h1>
+        <h1 style={{
+            color: theme.state.darkMode ? "white" : "black"
+        }}>Recent Searches</h1>
         <div
           style={{
             marginTop: "8px",

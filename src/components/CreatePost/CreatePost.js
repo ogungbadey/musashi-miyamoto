@@ -14,7 +14,7 @@ export default function CreatePost() {
         <div className={styles.Form}>
           <form>
             <input placeholder="Say something" type="text" />
-            <input type="submit" />
+            <input type="submit" value="Post"/>
           </form>
         </div>
       </div>
