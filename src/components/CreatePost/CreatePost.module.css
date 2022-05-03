@@ -18,7 +18,7 @@
 .CreatePost .PostField .Avatar {
     display: flex;
     /* align-items: center; */
-    flex: 0 1 64px;
+    flex: 0 1 48px;
     /* padding: 0 16px; */
 }
 

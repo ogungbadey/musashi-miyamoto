@@ -8,7 +8,9 @@ export default function CreatePost() {
   return (
     <div className={styles.CreatePost}>
       <div className={styles.PostField}>
-        <div className={styles.Avatar}>
+        <div className={styles.Avatar} style={{
+          color: theme.state.darkMode ? "white" : "black"
+        }}>
           <span><BsImages/></span>
         </div>
         <div className={styles.Form}>
