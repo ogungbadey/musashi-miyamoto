@@ -1,0 +1,62 @@
+.LeftBar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.Actions {
+    letter-spacing: 1.2px;
+    padding: 8px;
+    height: 256px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+
+
+.ActionsTop {
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ActionLink {
+    height: 42.5px;
+    padding: 4px 8px;
+}
+
+.ActionLink a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+
+.ActionLink a span {
+    display: block;
+}
+
+.ActionsTop > div .Icon {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.ActionsTop > div .Text {
+    flex: 1 0 auto;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.ActionsBottom {
+    height: 112px;
+}

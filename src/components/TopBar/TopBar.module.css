@@ -1,0 +1,95 @@
+.TopBar {
+    position: sticky;
+    top: 0;
+    /* height: 72px; */
+    padding: 8px 24px;
+    display: flex;
+    /* align-items: center; */
+    border-bottom: 1px solid rgb(247, 249, 249);
+}
+
+.TopBarInner {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 96px 320px 1fr 104px 64px;
+}
+
+.TopBarInner > div {
+    display: flex;
+    align-items: center;
+}
+
+.Navigation {
+    /* float: left; */
+    width: 96px;
+    grid-area: 1/1/2/2;
+}
+
+.Navigation .NavigationItem {
+    width: 40px;
+    height: 40px;
+    float: left;
+    color: white;
+    /* background-color: black; */
+}
+
+.NavIcon svg {
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.DropDown {
+    width: 104px;
+    float: left;
+    /* height: 40px; */
+    /* padding: 8px 4px; */
+    cursor: pointer;
+}
+
+.DropDownInner {
+    width: 88px;
+    background: black;
+    color: white;
+    display: flex;
+    border-radius: 34px;
+    padding: 4px;
+    align-items: center;
+}
+
+.DropDownInner:hover {
+    background-color: rgb(83, 85, 85);
+    transition: all .3s ease-in-out;
+}
+
+.DropDownInner::before {
+    border-radius: 50%;
+}
+
+.DropIcon {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 8px;
+}
+
+
+.DropDown {
+    grid-area: 1/4/2/5;
+}
+
+.Theme {
+    grid-area: 1/5/2/6;
+}
+
+.SearchBar {
+    grid-area: 1/2/2/3;
+}
+
+.DropText {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

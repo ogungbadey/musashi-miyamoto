@@ -1,0 +1,73 @@
+.CreatePost {
+    width: 100%;
+    height: 88px;
+    /* padding: 8px 32px; */
+    padding: 8px 24px;
+    /* background-color: white; */
+    color: white;
+    border-bottom: 1px solid rgb(247, 249, 249);
+}
+
+.CreatePost .PostField{
+    height: 72px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreatePost .PostField .Avatar {
+    display: flex;
+    /* align-items: center; */
+    flex: 0 1 64px;
+    /* padding: 0 16px; */
+}
+
+.CreatePost .PostField .Avatar span {
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    /* padding: 0 16px; */
+}
+
+
+.CreatePost .PostField .Form {
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.CreatePost .PostField .Form form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.CreatePost .PostField .Form form input[type="text"] {
+    flex: 0 1 80%;
+    padding-left: 6px;
+    font-size: 18px;
+    background-color: rgb(247, 249, 249);
+}
+
+.CreatePost .PostField .Form form input {
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+}
+
+.CreatePost .PostField .Form form input[type="submit"] {
+    background-color: #2196F3;
+    flex: 0 1 144px;
+    color: white;
+    border-radius: 34px;
+}
+
+.CreatePost .PostField .Form form input[type="submit"]::before {
+    border-radius: 50%;
+}
+
+
+
