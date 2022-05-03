@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ogungbadey/musashi-miyamoto/static/css/main.0c9d9400.css",
-    "main.js": "/ogungbadey/musashi-miyamoto/static/js/main.d497c945.js",
-    "static/js/787.cdb43182.chunk.js": "/ogungbadey/musashi-miyamoto/static/js/787.cdb43182.chunk.js",
-    "index.html": "/ogungbadey/musashi-miyamoto/index.html",
-    "main.0c9d9400.css.map": "/ogungbadey/musashi-miyamoto/static/css/main.0c9d9400.css.map",
-    "main.d497c945.js.map": "/ogungbadey/musashi-miyamoto/static/js/main.d497c945.js.map",
-    "787.cdb43182.chunk.js.map": "/ogungbadey/musashi-miyamoto/static/js/787.cdb43182.chunk.js.map"
+    "main.css": "/musashi-miyamoto/static/css/main.0c9d9400.css",
+    "main.js": "/musashi-miyamoto/static/js/main.145593aa.js",
+    "static/js/787.cdb43182.chunk.js": "/musashi-miyamoto/static/js/787.cdb43182.chunk.js",
+    "index.html": "/musashi-miyamoto/index.html",
+    "main.0c9d9400.css.map": "/musashi-miyamoto/static/css/main.0c9d9400.css.map",
+    "main.145593aa.js.map": "/musashi-miyamoto/static/js/main.145593aa.js.map",
+    "787.cdb43182.chunk.js.map": "/musashi-miyamoto/static/js/787.cdb43182.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c9d9400.css",
-    "static/js/main.d497c945.js"
+    "static/js/main.145593aa.js"
   ]
 }
