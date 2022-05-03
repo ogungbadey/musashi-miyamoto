@@ -29,6 +29,8 @@ function App() {
         <TopBar />
         <div className="Content">
           <Routes>
+
+            <Route path = "/" exact element={<Home/>}/>
             <Route path="/home" element={<Home />} />
             {/* <CreatePost /> */}
             {/* <Post /> */}
